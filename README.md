@@ -113,10 +113,213 @@ Publish the website in the LocalHost.
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .rounded-img {
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pharmacy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Product Content -->
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Our Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top rounded-img" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">Description of Product 1.</p>
+            <a href="#" class="btn btn-primary btn-block">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top rounded-img" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">Description of Product 2.</p>
+            <a href="#" class="btn btn-primary btn-block">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300" class="card-img-top rounded-img" alt="Product Image">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">Description of Product 3.</p>
+            <a href="#" class="btn btn-primary btn-block">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pharmacy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Content -->
+  <div class="container mt-5">
+    <h2>About Us</h2>
+    <p>Welcome to Our Pharmacy! We are dedicated to providing exceptional pharmacy services and healthcare solutions to our community.</p>
+    <p>At Our Pharmacy, we prioritize the safety and well-being of our customers. Our team of experienced pharmacists and staff are here to support you with personalized care, expert advice, and compassionate service.</p>
+    <p>We are proud to be an active member of our community, participating in health initiatives, educational programs, and outreach activities to promote public health and wellness.</p>
+    <p>Thank you for choosing Our Pharmacy for your healthcare needs. We look forward to serving you!</p>
+  </div>
+
+  <!-- Bootstrap JS dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Pharmacy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Content -->
+  <div class="container mt-5">
+    <h2>Contact Us</h2>
+    <p>If you have any inquiries or feedback, please feel free to contact us using the form below:</p>
+    <form>
+      <div class="form-group">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="inputPhone">Phone Number</label>
+        <input type="tel" class="form-control" id="inputPhone" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email address</label>
+        <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="inputMessage">Message</label>
+        <textarea class="form-control" id="inputMessage" rows="5" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 ```
 
 ## OUTPUT:
 ![alt text](project.png)
+![product](https://github.com/Ayisharinsi/Pharma/assets/148609304/79097eda-8301-4223-b37d-58789406a9cf)
+![about](https://github.com/Ayisharinsi/Pharma/assets/148609304/82bdb82e-8021-47fe-82d3-1840c3cf7e00)
+![contact](https://github.com/Ayisharinsi/Pharma/assets/148609304/45efe2e6-db5a-4f40-a643-4fbfd6924f3d)
+
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
